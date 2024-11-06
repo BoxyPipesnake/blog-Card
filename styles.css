@@ -41,6 +41,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: var(--gray-950);
   background-color: var(--yellow-bg);
   font-family: var(--font-primary);
 }
@@ -52,6 +53,9 @@ body {
 }
 
 .content-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
   padding: 24px;
   background-color: var(--white);
   border-radius: 20px;
@@ -61,4 +65,22 @@ body {
 .img-container {
   border-radius: 10px;
   overflow: hidden;
+}
+
+.details-container span{
+  display: block;
+  font-size: var(--fz-small);
+}
+
+.details-container .learning-tag {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 4px;
+  margin-bottom: 14px;
+  font-weight: var(--fw-ebold);
+  background-color: var(--yellow-bg);
+}
+
+.details-container .publish-date {
+  font-weight: var(--fw-medium);
 }
