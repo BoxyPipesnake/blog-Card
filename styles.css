@@ -54,5 +54,11 @@ body {
 .content-wrapper {
   padding: 24px;
   background-color: var(--white);
+  border-radius: 20px;
+  border: 1px solid var(--gray-950);
 }
 
+.img-container {
+  border-radius: 10px;
+  overflow: hidden;
+}
