@@ -18,7 +18,7 @@ This project is a solution to the blog preview card challenge from Frontend Ment
 ### Links
 
 - Solution URL: (https://github.com/BoxyPipesnake/blog-Card)
-- Live Site URL: (https://your-live-site-url.com)
+- Live Site URL: (https://boxypipesnake.github.io/blog-Card/)
 
 ## My process
 
