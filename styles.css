@@ -24,12 +24,20 @@
   --fw-ebold: 900;
   --fw-medium: 500;
 
-  --fz-large: 24px;
-  --fz-medium: 16px;
-  --fz-small: 14px;
+  --fz-large: 18px; 
+  --fz-medium: 14px;
+  --fz-small: 12px;
 
   --line-height: 150%;
   --lettter-spacing: 0px;
+}
+
+@media(min-width: 700px){
+  :root {
+    --fz-large: 20px; 
+    --fz-medium: 16px;
+    --fz-small: 14px;
+  }
 }
 
 img {
@@ -44,10 +52,12 @@ body {
   color: var(--gray-950);
   background-color: var(--yellow-bg);
   font-family: var(--font-primary);
+  line-height: var(--line-height);
+  letter-spacing: var(--lettter-spacing);
 }
 
 .main {
-  max-width: 327px;
+  max-width: 384px;
   margin-left: 24px;
   margin-right: 24px;
 }
@@ -83,4 +93,30 @@ body {
 
 .details-container .publish-date {
   font-weight: var(--fw-medium);
+}
+
+.course-heading {
+  margin: 12px 0;
+  font-size: var(--fz-large);
+  font-weight: var(--fw-ebold);
+}
+
+.course-description {
+  font-size: var(--fz-medium);
+  font-weight: var(--fw-medium);
+}
+
+.course-creator-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.profile-img {
+  height: 32px;
+}
+
+.course-creator-name {
+  font-size: var(--fz-medium);
+  font-weight: var(--fw-ebold);
 }
